@@ -1,0 +1,111 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #2c2c54; /* Lacivert tonlarında bir metin rengi */
+    background-color: #f7f7f7; /* Açık gri arkaplan */
+}
+
+/* Header */
+header {
+    background-color: #ff793f; /* Turuncu */
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffeaa7; /* Hafif sarı tonları */
+}
+
+/* Ana Giriş Bölümü */
+.intro {
+    text-align: center;
+    margin: 30px auto;
+    background-color: #f7f1e3; /* Yumuşak krem tonları */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro img {
+    width: 180px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #ff793f; /* Turuncu kenarlık */
+}
+
+.intro blockquote {
+    font-style: italic;
+    color: #706fd3; /* Lacivert-mor tonu */
+    border-left: 5px solid #ff793f; /* Turuncu şerit */
+    padding-left: 15px;
+    margin: 20px auto;
+}
+
+/* Bölüm Başlıkları ve İçerik */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background: white;
+    max-width: 800px;
+    border-left: 5px solid #706fd3; /* Lacivert kenarlık */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff793f; /* Turuncu başlık */
+}
+
+section p, section ul {
+    margin: 10px 0;
+}
+
+section ul {
+    padding-left: 20px;
+    list-style: square;
+}
+
+section li {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #2c2c54; /* Lacivert */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
