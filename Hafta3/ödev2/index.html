@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Clone</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font Awesome for LinkedIn Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container d-flex align-items-center">
+      <!-- LinkedIn Logo -->
+   <!-- LinkedIn Logo -->
+<a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+  <i class="fab fa-linkedin linkedin-logo me-2"></i>
+</a>
+
+      <!-- Search Bar -->
+      <form class="d-flex ms-3 flex-grow-1">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+      </form>
+
+      <!-- Navbar Icons -->
+      <div class="d-flex ms-3">
+        <a href="#" class="text-dark mx-2"><span class="material-icons">home</span></a>
+        <a href="#" class="text-dark mx-2"><span class="material-icons">people</span></a>
+        <a href="#" class="text-dark mx-2"><span class="material-icons">work</span></a>
+        <a href="#" class="text-dark mx-2"><span class="material-icons">message</span></a>
+        <a href="#" class="text-dark mx-2"><span class="material-icons">notifications</span></a>
+        <a href="#" class="text-dark mx-2"><span class="material-icons">account_circle</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mt-5 pt-4">
+    <div class="row">
+      <!-- Left Sidebar -->
+      <div class="col-md-3">
+        <div class="card mb-3">
+          <div class="card-body text-center">
+            <img src="https://picsum.photos/100" class="rounded-circle mb-3" alt="Profile" width="100" height="100">
+            <h5 class="card-title">Emre Can</h5>
+            <p class="text-muted">Yazılım Geliştirici</p>
+            <button class="btn btn-primary btn-sm">Profili Gör</button>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-body">
+            <h6>Bağlantılarınız</h6>
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center my-2">
+                <img src="https://picsum.photos/40" class="rounded-circle me-2" alt="Connection" width="40" height="40">
+                <span>Kullanıcı 1</span>
+              </li>
+              <li class="d-flex align-items-center my-2">
+                <img src="https://picsum.photos/40" class="rounded-circle me-2" alt="Connection" width="40" height="40">
+                <span>Kullanıcı 2</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Posts Section -->
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-body">
+            <textarea class="form-control" placeholder="Bir gönderi başlat..." rows="3"></textarea>
+            <div class="d-flex justify-content-between mt-2">
+              <button class="btn btn-light"><span class="material-icons">photo_camera</span> Fotoğraf</button>
+              <button class="btn btn-light"><span class="material-icons">video_camera_front</span> Video</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post -->
+        <div class="card mb-4">
+          <div class="card-header d-flex align-items-center">
+            <img src="https://picsum.photos/40" class="rounded-circle me-2" alt="Profile" width="40" height="40">
+            <h6 class="mb-0">Kullanıcı 3</h6>
+          </div>
+          <div class="card-body">
+            <p>Bugün harika bir şey öğrendim!</p>
+            <img src="https://picsum.photos/800/400" class="img-fluid rounded" alt="Post Image">
+          </div>
+          <div class="card-footer d-flex justify-content-between">
+            <button class="btn btn-light"><span class="material-icons">thumb_up</span> Beğen</button>
+            <button class="btn btn-light"><span class="material-icons">comment</span> Yorum</button>
+            <button class="btn btn-light"><span class="material-icons">share</span> Paylaş</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Sidebar -->
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h6>İlginizi Çekebilecek Kişiler</h6>
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center my-2">
+                <img src="https://picsum.photos/40" class="rounded-circle me-2" alt="Profile" width="40" height="40">
+                <span>Kullanıcı 4</span>
+                <button class="btn btn-link ms-auto">Bağlan</button>
+              </li>
+              <li class="d-flex align-items-center my-2">
+                <img src="https://picsum.photos/40" class="rounded-circle me-2" alt="Profile" width="40" height="40">
+                <span>Kullanıcı 5</span>
+                <button class="btn btn-link ms-auto">Bağlan</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

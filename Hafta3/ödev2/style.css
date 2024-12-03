@@ -1,0 +1,15 @@
+body {
+    background-color: #f3f2ef;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+
+  .linkedinlogo{
+font-size: 5rem;
+  }
