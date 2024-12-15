@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+      html {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-900 container ">
+    <!-- Header -->
+    <header class="flex justify-between items-center p-6 bg-white shadow">
+      <h1 class="text-xl font-bold">Mamba</h1>
+      <nav class="space-x-6">
+        <a href="#" class="text-gray-600">Link</a>
+        <a href="#" class="text-gray-600">Link</a>
+        <a href="#" class="text-gray-600">Link</a>
+        <button class="px-4 py-2 bg-purple-600 text-white rounded">
+          Sign Up
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class=" align-center px-4 py-16 flex flex-wrap items-center gap-0"
+    >
+      <div class="w-full lg:w-4/12 space-y-6">
+        <h2 class="text-6xl font-bold">Build it with Mamba</h2>
+        <p class="text-gray-600">
+          Modular and versatile. The ultimate design toolkit for savvy
+          technology startups.
+        </p>
+        <form class="space-y-4">
+          <input
+            type="text"
+            placeholder="Your name"
+            class="w-full p-3 border rounded"
+          />
+          <input
+            type="email"
+            placeholder="Email address"
+            class="w-full p-3 border rounded"
+          />
+          <button class="w-full p-3 bg-purple-600 text-white rounded">
+            Join the waitlist
+          </button>
+        </form>
+      </div>
+      <div class="w-full lg:w-8/12">
+        <img
+          src="https://picsum.photos/600/500"
+          alt="Hero"
+          class="rounded shadow-lg mx-auto"
+        />
+      </div>
+    </section>
+
+    <section class="px-10 py-16 bg-white">
+      <h3 class="text-2xl font-bold text-center mb-8">
+        Building with Mamba is simple
+      </h3>
+      <div class="flex flex-wrap mx-4">
+        <div class="w-full md:w-1/3 px-4">
+          <div
+            class="p-6 bg-gray-100 rounded flex flex-col items-center justify-between h-40"
+          >
+            <h4
+              class="text-xl font-semibold bg-purple-600 text-white rounded-full border-4 border-purple-700 w-16 h-16 flex items-center justify-center mx-auto mb-4"
+            >
+              1
+            </h4>
+            <p class="text-gray-600">
+              <span class="font-bold">Corrupti.</span>blanditiis. Illum,
+              architecto?
+            </p>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 px-4">
+          <div
+            class="p-6 bg-gray-100 rounded flex flex-col items-center justify-between h-50"
+          >
+            <h4
+              class="text-xl font-semibold bg-purple-600 text-white rounded-full border-4 border-purple-700 w-16 h-16 flex items-center justify-center mx-auto mb-4"
+            >
+              2
+            </h4>
+            <p class="text-gray-600">
+              <span class="font-bold">Accusantium.</span> Vitae saepe atque
+              neque sunt eius dolor veniam alias debitis?
+            </p>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 px-4">
+          <div
+            class="p-6 bg-gray-100 rounded flex flex-col items-center justify-between h-50"
+          >
+            <h4
+              class="text-xl font-semibold bg-purple-600 text-white rounded-full border-4 border-purple-700 w-16 h-16 flex items-center justify-center mx-auto mb-4"
+            >
+              3
+            </h4>
+            <p class="text-gray-600">
+              <span class="font-bold">Maxime.</span> Expedita temporibus culpa
+              reprehenderit doloribus consectetur odio!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-10 py-16 bg-white">
+      <div class="flex">
+        <div class="flex-auto">
+          <img
+            src="https://picsum.photos/600/500"
+            alt="Hero"
+            class="rounded shadow-lg mx-auto"
+          />
+        </div>
+        <div
+          class="flex flex-col items-center justify-center h-screen text-center w-full max-w-md mx-auto"
+        >
+          <img
+            src="https://picsum.photos/100/100"
+            alt="Hero"
+            class="rounded-full shadow-lg mb-4"
+          />
+          <p class="mb-2 font-bold">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quam?
+          </p>
+          <p class="font-light break-words">
+            Emre Can TERKAN - BackEnd Developer
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container flex flex-col px-10 py-16 bg-gray-500 align-center">
+        <h1 class="text-5xl font-bold  mb-4">Create with us</h1>
+        <p class="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto inventore
+          consectetur reiciendis quia. Eius officia repellendus earum commodi
+          dolores adipisci. Minus obcaecati dolorem provident esse eaque
+          praesentium aliquid cumque atque!
+        </p>
+      </div>
+      
+      <div class="flex container gap-5">
+        <div class="w-1/2 size-100 bg-yellow-500">1</div>
+        <div class="w-1/2 size-40">
+            <button class="rounded-full bg-sky-500 px-2 py-2 text-white font-bold">Save Changes</button>
+            <h2>Curating a workplace that inspires team movement</h2>
+            <p>November 30,2020</p>
+            <p>By Leroy Jenkins</p>
+        </div>
+      </div>
+
+
+    <!-- Footer -->
+    <footer class="px-10 py-6 bg-gray-800 text-white text-center">
+      <p>&copy; 2024 Mamba. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
