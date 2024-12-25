@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container mx-auto flex flex-col items-center justify-center h-screen mt-4">
+        <div><h1 class="text-white text-2xl">GÖTÜNE GOYIM AHMET</h1></div>
+        <div class="w-1/2 h-1/2">
+            <img src="assets/drum.png" alt="" class="w-full h-full object-contain" >
+        </div>
+        <div class="buttons grid grid-cols-9 gap-4">
+            <button data-sound="assets/boom.wav" class="w-16 h-16 bg-blue-500 text-white rounded-md hover:bg-blue-600">A</button>
+            <button data-sound="assets/clap.wav" class="w-16 h-16 bg-blue-500 text-white rounded-md hover:bg-blue-600">S</button>
+            <button data-sound="assets/hihat.wav" class="w-16 h-16 bg-blue-500 text-white rounded-md hover:bg-blue-600">D</button>
+            <button data-sound="assets/kick.wav" class="w-16 h-16 bg-blue-500 text-white rounded-md hover:bg-blue-600">F</button>
+            <button data-sound="assets/openhat.wav" class="w-16 h-16 bg-blue-500 text-white rounded-md hover:bg-blue-600">G</button>
+            <button data-sound="assets/ride.wav" class="w-16 h-16 bg-blue-500 text-white rounded-md hover:bg-blue-600">H</button>
+            <button data-sound="assets/snare.wav" class="w-16 h-16 bg-blue-500 text-white rounded-md hover:bg-blue-600">J</button>
+            <button data-sound="assets/tink.wav" class="w-16 h-16 bg-blue-500 text-white rounded-md hover:bg-blue-600">K</button>
+            <button data-sound="assets/tom.wav" class="w-16 h-16 bg-blue-500 text-white rounded-md hover:bg-blue-600">L</button>
+        </div>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
