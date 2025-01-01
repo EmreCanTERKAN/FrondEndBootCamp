@@ -1,0 +1,44 @@
+#content .content-info{
+    position: relative;
+    padding-left: 80px;
+    margin-bottom : 32px;
+    padding-top: 8px;
+}
+
+#content .content-info i{
+    position : absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    width: 54px;
+    height: 54px;
+    background-color: var(--background-color-1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+#content .content-info h4 {
+    font-size: 16px;
+    font-weight: 600;   
+}
+
+#content .content-info p {
+    font-size: 14px;
+    margin: 0 0 4px 0;  
+}
+
+#content .content-form input, 
+#content .content-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--border-color-1);
+    border-radius: 4px;
+    background-color: var(--background-color-1);
+}
+
+#content .content-form button {
+    font-size: 14px;
+}
